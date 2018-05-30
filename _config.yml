@@ -1,0 +1,35 @@
+title: Hello, world! I'm Yu Yang!
+description: > # this means to ignore newlines until "baseurl:"
+  A blog of my Ph.D. learning. It contains several parts, such as machine learning and statistics. Hope you love it!
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Yu Yang # add your name
+author-img: yu-yang.jpg # add your photo
+about-author: I am a Statistics Ph.D. student focusing on machine learning. Always hungry to keep learning. # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: yangshufe # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: yangshufe@163.com # add your Email address
+
+# Disqus
+discus-identifier: Yu Yang # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
